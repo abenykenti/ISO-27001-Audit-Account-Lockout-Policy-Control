@@ -5,7 +5,7 @@
 ISO 27001 Audit – Account Lockout Policy Control
 
 **Objective:**  
-Evaluate the Active Directory system based on ISO 27001 controls to assess the implementation and effectiveness of account lockout mechanisms.
+Evaluate the SecureAuth-AD system based on ISO 27001 controls to assess the implementation and effectiveness of account lockout mechanisms.
 
 ---
 
@@ -26,7 +26,7 @@ The audit focuses on user access management, particularly on the secure logon pr
 ---
 
 ## 3. Audit Findings
-The review revealed that the **Active Directory environment lacks a Group Policy** to lock user accounts after repeated failed login attempts.
+The review revealed that the **SecureAuth-AD environment lacks a Group Policy** to lock user accounts after repeated failed login attempts.
 
 ### Key Findings:
 - **Risk Exposure:** The absence of this control significantly increases the risk of unauthorized access due to brute force or other attack methods.
